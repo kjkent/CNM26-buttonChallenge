@@ -1,0 +1,85 @@
+#logos {
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+
+}
+
+#topthird {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    justify-content: space-around;
+}
+
+#midthird {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#bottomthird {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.sqlogo{
+    height: 70px;
+}
+
+
+#CN:hover {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    } 50% {
+        opacity: 0%;
+        
+    } 100% {
+        transform:rotate(360deg);
+    }
+}
+
+#FB {
+    transition: filter 1s;
+}
+
+#FB:hover {
+    filter:drop-shadow(10px 10px 4px white);
+}
+
+#DC {
+    transition: filter 1s;
+}
+
+#DC:hover {
+    filter:drop-shadow(-10px 10px 4px white);
+}
+
+#IG {
+    transition:filter 1s;
+}
+
+#IG:hover {
+    filter:drop-shadow(10px -10px 4px white);
+}
+
+
+#TW {
+    transition:filter 1s;
+}
+
+#TW:hover {
+    filter:drop-shadow(-10px -10px 4px white);
+}
